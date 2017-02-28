@@ -1,58 +1,66 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>IFE TASK1</title>
+    <meta charset="utf-8">
+    <title>IFE TASK1</title>
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, 
+        user-scalable=0,maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 </head>
 <body>
-	<h1>了不起的盖茨比？？</h1>
+    <h1>前端学习</h1>
     <ul>
-       <li><a href="#" title="前端开发面试心法">前端开发面试心法</a> </li>
-       <li><a href="#" title="零基础学习html">零基础学习html</a></li>
-       <li><a href="#" title="JavaScript全攻略">JavaScript全攻略</a></li>
+		<li><a href="#" title="前端开发面试心法">前端开发面试心法</a> </li>
+        <li><a href="#" title="零基础学习html">零基础学习html</a></li>
+        <li><a href="#" title="JavaScript全攻略">JavaScript全攻略</a></li>
     </ul>
     <p>1922年的春天，一个想要成名名叫尼克•卡拉威（托比•马奎尔Tobey Maguire 饰）的作家，离开了美国中西部，来到了纽约。那是一个道德感渐失，爵士乐流行，走私为王，股票飞涨的时代。为了追寻他的美国梦，他搬入纽约附近一海湾居住。</p>
     <p>菲茨杰拉德，二十世纪美国文学巨擘之一，兼具作家和编剧双重身份。他以诗人的敏感和戏剧家的想象为"爵士乐时代"吟唱华丽挽歌，其诗人和梦想家的气质亦为那个奢靡年代的不二注解。</p>
-  
-  <!-- Note that it is "h" + "1", not "h" + the letter "one" -->
+
 	<p>Loook Ma, I am coding <abbr title="Hyper Text Markup Language">HTML</abbr>.</p>
 	<form>
 		<label for="username">姓名：</label>
-		<input type=“text” name="username" id="username" value="张小六">
+		<input type="text" name="username" id="username" value="张小六">
 		</br>
 		<label for="pass">密码：</label>
-		<input type="password"  name="pass" id="pass" value="" />    
+		<input type="password"  name="pass" id="pass" value="">    
 		</br>
-		<input type="submit" value="确定"  name="submit" />
-		<input type="reset" value="重置" name="reset" />
+	    <input type="submit" value="确定"  name="submit" >
+		<input type="reset" value="重置" name="reset" >
 		</br>
 	<label for="selfintro">个人简介：</label>
 	</br>
     <textarea cols="50" rows="10" id="selfintro">在这里输入内容...</textarea></br>
-    <input type="submit" value="确定"  name="submit" />
-    <input type="reset" value="重置"  name="reset" /></br>
+    <input type="submit" value="确定"  name="submit" >
+    <input type="reset" value="重置"  name="reset" >
+    </br>
 	</form>
 	<label>性别:</label>
-    <label>男</label>
-    <input type="radio" value="1"  name="gender" checked = "checked"/>
-    <label>女</label>
-    <input type="radio" value="2"  name="gender" /><br>
-	<label>喜欢的明星:</label><br>
-	<input type="checkbox" name="" value="新垣结衣">
+    <label for="gender-man">男</label>
+    <input type="radio" value="1" name="gender" id="gender-man">
+    <label for="gender-woman">女</label>
+    <input type="radio" value="2"  name="gender" id="gender-woman">
+    </br>
+	<label for="likestar">喜欢的明星:</label></br>
+	<input type="checkbox" name="likestar" id="likestar" value="新垣结衣">
 	<label>新垣结衣</label><br>
-	<img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3572228486,117083694&fm=11&gp=0.jpg" title = "电影介绍">
+	<img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3572228486,117083694&fm=11&gp=0.jpg" alt = "电影介绍">
 	<ul>
 		<li><a href = "https://www.baidu.com/index.php?tn=98012088_3_dg&ch=1" target="_blank">百度一下</a></li>
 		<li><a href = "https://github.com/FantasyPeng/" target="_blank">我的Github</a></li>
 	</ul>
 	    <label>爱好:</label>
     <select>
-      <option value="看书">看书</option>
-      <option value="旅游" selected="selected">旅游</option>
-      <option value="运动">运动</option>
-      <option value="购物">购物</option>
+		<option value="看书">看书</option>
+		<option value="旅游">旅游</option>
+		<option value="运动">运动</option>
+		<option value="购物">购物</option>
     </select>
 	<br>
-	<img src="http://img.mukewang.com/52da54ed0001ecfa04120172.jpg" title = "电影介绍">
+	<img src="http://img.mukewang.com/52da54ed0001ecfa04120172.jpg" alt = "电影介绍">
+	<footer>
+		<p>© 2017 Tenbeans. All rights reserved.</p>
+	</footer>
 </body>
 </html>
