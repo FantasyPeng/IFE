@@ -1,4 +1,4 @@
-body{
+    body{
     	margin: 0;
     	background: #ececec;
     }
@@ -264,4 +264,7 @@ footer ul{
 footer a{
     color: #fff;
     text-decoration: none;
+}
+.ol{
+    padding-left: 20px;
 }
