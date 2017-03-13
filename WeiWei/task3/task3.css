@@ -16,7 +16,7 @@ body{
     background: #fff;
     border: 1px solid #999;
 }
-.outer,.inner{
+.inner{
 	overflow: auto;
 }
 .team{
@@ -24,11 +24,6 @@ body{
 	width: 160px;
 	background: #fff;
 	margin-right:20px; 
-}
-.right{
-	border: 0px;
-	padding: 0;
-	overflow: auto;
 }
 .selflogos{
 	float:right;
